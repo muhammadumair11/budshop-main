@@ -1,3 +1,3 @@
 # budshop
 
-https://muhammadumair11.github.io/budshop-main/
+https://budshopfr.netlify.app/
