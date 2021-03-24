@@ -12,7 +12,7 @@
 
 .header-bg-img {
     width: 100%;
-    background: url("/assets/img/header.jpg");
+    background: url("assets/img/header.jpg");
     background-position: left top;
     background-size: 100% 100%;
     background-repeat: no-repeat;
