@@ -9,14 +9,6 @@
     box-sizing: border-box;
 }
 
-#loader {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    z-index: 20;
-    overflow: visible;
-    background: #fff url(../img/loader.gif) no-repeat center center;
-}
 
 .header-bg-img, .header-img, .button, .card-btn, .count-btn, .links,.heading, .heading .row .col-lg-3{
     display: flex;
