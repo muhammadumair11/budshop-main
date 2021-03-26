@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-  if ($(this).scrollTop() >= 636){  
+  if ($(this).scrollTop() >= 700){  
     $('nav').addClass("sticky");
     $('header').addClass("header-fix");
 }

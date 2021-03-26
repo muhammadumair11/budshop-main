@@ -1,11 +1,7 @@
-
-.header-fix {
-  padding-top: 5rem;
-}
 .sticky {
   position: fixed;
   top: 0;
-  z-index: 10;
+  z-index: 15;
 
 
   transition: all 500ms;
@@ -13,4 +9,10 @@
   -webkit-box-shadow: 0px 17px 21px -12px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 17px 21px -12px rgba(0,0,0,0.75);
 box-shadow: 0px 17px 21px -12px rgba(0,0,0,0.75);
+}
+
+@media (min-width: 990px) {
+  .header-fix {
+  padding-top: 5rem;
+}
 }
