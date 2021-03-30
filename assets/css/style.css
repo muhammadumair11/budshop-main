@@ -466,7 +466,6 @@ box-shadow: 14px 17px 22px -15px rgba(0,0,0,0.75);
 }
 
 .info i {
-    border: 1px solid black;
     background-color: black;
     color: white;
     padding: 15px;
@@ -495,7 +494,7 @@ box-shadow: 14px 17px 22px -15px rgba(0,0,0,0.75);
   width: 100%;
   height: 100%;
   border-radius: 15px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255,255,255, 0.6);
   z-index: 2;
   transition: 0.5s;
   opacity: 0;
@@ -532,6 +531,25 @@ box-shadow: 14px 17px 22px -15px rgba(0,0,0,0.75);
   color: white;
 }
 /* cards end */
+
+.leaf {
+    position: absolute;
+    z-index: 3;
+}
+.leaf-1 {
+    margin: 15rem 0 0 0;
+    width: 40%;
+    left: -25rem
+}
+.leaf-3 {
+    right: 2rem;
+}
+.leaf-4 {
+    margin: 15rem 0 0 0;
+    width: 40%;
+    right: -35rem
+}
+
 
 .process-img h1 {
     font-style: var(--opensans);
@@ -715,6 +733,18 @@ ul {
     }
     .main-btn {
     width: 70%;
+}
+
+.leaf {
+    display: none;
+}
+
+.leaf-hand img {
+    width: 50% !important;
+}
+
+.newsletter {
+    padding: 3rem 0;
 }
 
 .countdown, .header-bg-img {

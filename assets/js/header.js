@@ -7,5 +7,4 @@ else {
     $('nav').removeClass("sticky");
     $('header').removeClass("header-fix");
   }
-console.log($(this).scrollTop());
 });
